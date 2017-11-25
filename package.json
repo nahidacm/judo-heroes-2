@@ -1,7 +1,7 @@
 {
-  "name": "judo-heroes-2",
+  "name": "react-magento-storefront",
   "version": "1.0.0",
-  "description": "A React application to showcase rendering with Universal JavaScript",
+  "description": "React store front for headless Magento 2",
   "main": "server.js",
   "scripts": {
     "test:lint": "eslint src/",
@@ -16,7 +16,7 @@
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect"
   },
-  "author": "Luciano Mammino",
+  "author": "Mahmudur Rahman",
   "license": "MIT",
   "dependencies": {
     "babel-cli": "^6.24.1",
@@ -28,9 +28,11 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.2",
+    "restler": "^3.4.0",
     "snyk": "^1.41.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.0.0-beta.32",
     "babel-loader": "^7.1.1",
     "babel-register": "^6.24.1",
     "eslint": "^3.19.0",
